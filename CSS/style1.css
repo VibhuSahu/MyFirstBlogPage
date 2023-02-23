@@ -22,14 +22,13 @@
 
 .logo img {
     width: 30%;
-    border: 3px solid white;
+    border: 3px solid black;
     border-radius: 50px;
 }
 
 
 .nav-list{
     width: 50%;
-    background-color: black;
     display: flex;
     align-items: center;
 
@@ -46,20 +45,38 @@
 
 .nav-list li a{
     text-decoration: none;
-    color: white;
-
+    color: black;
+    transition: 0.3s all;
+    font-size: 28px;
 }
 
 .nav-list li a:hover{
     text-decoration: none;
     color: grey;
-
 }
 
+
+
+
+
 .rightNav {
-    background-color: blueviolet;
     width: 50%;
     text-align: right;
     display: flex;
-    
+
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+
+.background {
+    background: rgba(0, 0, 0, 0) url('../image/homePageCoverImage.jpg')
+    background-size: cover;
+    background-blend-mode: darken;
+
 }
