@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-list{
+    display: flex;
+
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 50%;
+    border: 3px solid wheat;
+    border-radius: 50px;
+}
+
+
+
+.nav-list li{
+    width: 50%;
+    background-color: yellow;
+
+
+}
+
+
+.nav-list li a{
+
+}
+
+.right-nav {
+    background-color: blueviolet;
+    width: 50%;
+    text-align: right;
+}
